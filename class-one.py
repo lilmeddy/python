@@ -37,5 +37,6 @@ score5 = 99
 
 total= score1 + score2 + score3 + score4 + score5
 mean = total/5
+print(t)
 print(mean)
 
