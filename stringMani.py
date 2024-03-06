@@ -21,5 +21,7 @@ science = int(input(f'Dear {firstName} {lastName} enter your score in science ex
 english = int(input(f'Dear {firstName} {lastName} enter your score in english exam '))
 add = math + science + english
 mean = add/3
-print() 
+print(f'''Dear {firstName.capitalize} {lastName.capitalize()}
+Congratulation you have been offered admission into our University 
+With an average score of {mean}.''') 
 
