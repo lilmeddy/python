@@ -10,3 +10,6 @@ accountNumber = 2134567890
 print(f'''Hi {firstName.capitalize()} {lastName.capitalize()}.
 Your Account balance is ${accountBalance}
 Your Account Number is {accountNumber}''')
+ques1 = "Who is mede"
+ans1 = input(f"{ques1} ")
+print(ans1)
