@@ -6,4 +6,4 @@ accountNumber = 2134567890
 # print(firstName.upper())
 # print(firstName.lower())
 
-print(f"Hi {firstName.capitalize()} {lastName.capitalize()}. Your Account balance is ${accountBalance} and your Account Number is {accountNumber}")
+print(f"Hi {firstName.capitalize()} {lastName.capitalize()}.\nYour Account balance is ${accountBalance}\nYour Account Number is {accountNumber}")
