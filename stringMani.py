@@ -1,6 +1,6 @@
 firstName = "osamede"
 lastName = "aghedo"
-accountBalance = 10
+accountBalance = 100
 accountNumber = 2134567890
 # print(firstName.capitalize())
 # print(firstName.upper())
