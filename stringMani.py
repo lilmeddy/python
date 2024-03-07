@@ -33,5 +33,5 @@ Product Price
 {product1}  ${price1}
 {product2}  ${price2}
 {product3}  ${price3}
-Average ${total}
+Totals ${total}
 ''')
