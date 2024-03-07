@@ -27,9 +27,11 @@
 product1, price1 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
 product2, price2 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
 product3, price3 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+total = price1 + price2 + price3
 print(f'''
 Product Price
 {product1}  ${price1}
 {product2}  ${price2}
 {product3}  ${price3}
+Average ${total}
 ''')
