@@ -14,8 +14,7 @@
 # Assignment ask student about their scores in science, math and english exam
 # Ask for their name, print admission number and find the mean score and write your average score is
 
-# firstName = input("What is your first name ")
-# lastName = input("What is your last name ")
+# firstName,lastName = input("What is your first name "),input("What is your last name ")
 # math = int(input(f'Dear {firstName} {lastName} enter your score in maths exam '))
 # science = int(input(f'Dear {firstName} {lastName} enter your score in science exam '))
 # english = int(input(f'Dear {firstName} {lastName} enter your score in english exam '))
@@ -24,6 +23,13 @@
 # print(f'''Dear {firstName.capitalize()} {lastName.capitalize()}
 # Congratulation you have been offered admission into our University 
 # With an average score of {mean}.''') 
-sciencescore = 50
-print(sciencescore+"$")
 
+product1, price1 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+product2, price2 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+product3, price3 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+print(f'''
+Product Price
+{product1}  {price1}
+{product2}  {price2}
+{product3}  {price3}
+''')
