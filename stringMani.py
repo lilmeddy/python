@@ -29,7 +29,7 @@ product2, price2 = input("What did customer buy "),int(input(f"Enter the amount 
 product3, price3 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
 print(f'''
 Product Price
-{product1}  {price1}
-{product2}  {price2}
-{product3}  {price3}
+{product1}  ${price1}
+{product2}  ${price2}
+{product3}  ${price3}
 ''')
