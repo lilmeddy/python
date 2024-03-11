@@ -50,12 +50,24 @@
 # print(final)
 
 # Comparison
-name = "obafemi"
-name1 = "obafemi"
-# value = False
-theSame =(0.1+0.2 == 0.3)
-print(theSame)
+# name = "obafemi"
+# name1 = "obafemi"
+# # value = False
+# theSame =(0.1+0.2 == 0.3)
+# print(theSame)
 
 # Boolean
 
+
+# if and else
+name = input("whats your name: ")
+name2 = input("whats your name: ")
+age = input("whats my age: ")
+age2 = input("whats my age: ")
+if (name ==name2) and (age==age2):
+    print("you passed")
+elif (name==name2):
+    print("You passsed halfway")
+else:
+    print("you failed")
 
