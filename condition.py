@@ -4,7 +4,7 @@ score2 = int(input("Enter your score2: "))
 score3 = int(input("Enter your score3: "))
 score4 = int(input("Enter your score4: "))
 totalScore = score + score1 + score2 + score3 + score4
-meanScore = totalScore/5
+meanScore = int(totalScore/5)
 if (meanScore >= 70):
     print(f"The total sore is {meanScore}. You Passed")
 else:
