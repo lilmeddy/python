@@ -1,11 +1,11 @@
-score = int(input("Enter your score: "))
-score1 = int(input("Enter your score1: "))
-score2 = int(input("Enter your score2: "))
-score3 = int(input("Enter your score3: "))
-score4 = int(input("Enter your score4: "))
-totalScore = score + score1 + score2 + score3 + score4
+mede = int(input("Enter your score mede: "))
+duro = int(input("Enter your score duro: "))
+obafemi = int(input("Enter your score obafemi: "))
+ibrahim = int(input("Enter your score ibrahim: "))
+timi = int(input("Enter your score timi: "))
+totalScore = mede + duro + obafemi + ibrahim + timi
 meanScore = int(totalScore/5)
 if (meanScore >= 70):
-    print(f"The total sore is {meanScore}. You Passed")
+    print(f"The total score is {meanScore}. They Passed")
 else:
-    print(f"The total score is {meanScore}. You failed lol")
+    print(f"The total score is {meanScore}. They failed lol")
