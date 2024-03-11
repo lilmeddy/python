@@ -24,14 +24,38 @@
 # Congratulation you have been offered admission into our University 
 # With an average score of {mean}.''') 
 
-product1, price1 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
-product2, price2 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
-product3, price3 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
-total = price1 + price2 + price3
-print(f'''
-Product Price
-{product1}  ${price1}
-{product2}  ${price2}
-{product3}  ${price3}
-Totals ${total}
-''')
+# product1, price1 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+# product2, price2 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+# product3, price3 = input("What did customer buy "),int(input(f"Enter the amount paid for  "))
+# total = price1 + price2 + price3
+# print(f'''
+# Product Price
+# {product1}  ${price1}
+# {product2}  ${price2}
+# {product3}  ${price3}
+# Totals ${total}
+# ''')
+
+# a = 10
+# b = 2
+# c = 5
+# d = 7
+ 
+# addition = a + d
+# subtraction = a-b
+# division = a/b
+# multiplication = b*C
+# isEven = 201%2
+# final =(((a-b)*(a%d))+1)/c
+# print(final)
+
+# Comparison
+name = "obafemi"
+name1 = "obafemi"
+# value = False
+theSame =(0.1+0.2 == 0.3)
+print(theSame)
+
+# Boolean
+
+
