@@ -73,12 +73,20 @@ print(lists[0])
 # symbol()            symbol{}           symbol{}            symbol[]
 # eg(1,1.0,"hi")      eg{1,1.0,"hi"}     eg{name:"mede"}     eg[1.0,1,"hii"]
 # simple              complex            complex              simple
+# acceptDuplicate     doesn'tAccept     doesn'tAcceptKey      accept
 
 
 # list
 eg = ["obafemi", "mayowa", "ibrahim", "mede", "ife", "damola"]
 eg.append("hehe")
-eg.join(["osas",100])
+eg.extend(["osas",100]) 
+eg.insert(1,"aghedo")
+# to edit a particular one sha. then if you replace just insert the index and pop the one you want to delete
+eg.pop(eg.index("ibrahim"))
+# or
+eg.pop(0)
+# Extend add list together withouth the []
+
 print(eg)
 
 # tuple
