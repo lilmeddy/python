@@ -58,16 +58,20 @@
 
 # Boolean
 
+# name = "timi is a good girl"
+# print(name.split(" "))
 
-# if and else
-name = input("whats your name: ")
-name2 = input("whats your name: ")
-age = input("whats my age: ")
-age2 = input("whats my age: ")
-if (name ==name2) and (age==age2):
-    print("you passed")
-elif (name==name2):
-    print("You passsed halfway")
-else:
-    print("you failed")
+lists=[1.0, 1, "hi"]
+print(len(lists))
+print(lists[2])
+print(lists[-1])
+print(lists[0])
+
+# tuples              sets               dictionary          lists
+# immutable           mutable            mutable             mutable
+# orderly             unorderly          orderly             orderly
+# symbol()            symbol{}           symbol{}            symbol[]
+# eg(1,1.0,"hi")      eg{1,1.0,"hi"}     eg{name:"mede"}     eg[1.0,1,"hii"]
+# simple              complex            complex              simple
+
 

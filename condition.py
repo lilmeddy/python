@@ -1,3 +1,15 @@
+# name = input("whats your name: ")
+# name2 = input("whats your name: ")
+# age = input("whats my age: ")
+# age2 = input("whats my age: ")
+# if (name ==name2) and (age==age2):
+#     print("you passed")
+# elif (name==name2):
+#     print("You passsed halfway")
+# else:
+#     print("you failed")
+
+
 mede = int(input("Enter your score mede: "))
 duro = int(input("Enter your score duro: "))
 obafemi = int(input("Enter your score obafemi: "))
