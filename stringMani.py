@@ -94,6 +94,7 @@ print(eg)
 eg ={"name":"mede","age":35}
 eg["color"]="rebeccapurple"
 print(eg)
+print(eg["name"])
 eg["color"]= 'pink'
 print(eg["color"])
 print(eg["age"])
