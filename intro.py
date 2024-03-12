@@ -1007,7 +1007,7 @@ myThird = "ayo"
 
 # myNames = ["ade", "shola", "ayo"]
 
-# randomThings = ["hey", 1, True, 5.8, ["open", 2]]
+# randomThings = ["hey", 1, True, 5.8, ["open", 2]] 
 
 
 # randomThings2 = list(("hey", 1, True, 5.8))
