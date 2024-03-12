@@ -6,6 +6,6 @@ timi = int(input("Enter your score timi: "))
 totalScore = mede + duro + obafemi + ibrahim + timi
 meanScore = int(totalScore/5)
 if (meanScore >= 70):
-    print(f"The total score is {meanScore}. They Passed")
+    print(f"The total score is {meanScore}. They all Passed cute hehe")
 else:
-    print(f"The total score is {meanScore}. They failed lol")
+    print(f"The total score is {meanScore}. They all failed sad lol")
