@@ -75,3 +75,25 @@ print(lists[0])
 # simple              complex            complex              simple
 
 
+# list
+eg = ["obafemi", "mayowa", "ibrahim", "mede", "ife", "damola"]
+eg.append(10)
+print(eg)
+
+# tuple
+eg = ("obafemi", "mayowa", "ibrahim", "mede", "ife", "damola")
+# eg.append(10)
+print(eg)
+
+# set
+eg = {"obafemi", "mayowa", "ibrahim", "mede", "ife", "damola"}
+eg.add(10)
+print(eg)
+
+# dictionary
+eg ={"name":"mede","age":35}
+eg["color"]="rebeccapurple"
+print(eg)
+eg["color"]= 'pink'
+print(eg["color"])
+print(eg["age"])
