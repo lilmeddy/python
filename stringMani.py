@@ -79,13 +79,15 @@ print(lists[0])
 # list
 eg = ["obafemi", "mayowa", "ibrahim", "mede", "ife", "damola"]
 eg.append("hehe")
+# to add
 eg.extend(["osas",100]) 
+# Extend add list together withouth the []
 eg.insert(1,"aghedo")
 # to edit a particular one sha. then if you replace just insert the index and pop the one you want to delete
 eg.pop(eg.index("ibrahim"))
 # or
 eg.pop(0)
-# Extend add list together withouth the []
+
 
 print(eg)
 
