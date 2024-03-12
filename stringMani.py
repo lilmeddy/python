@@ -77,7 +77,8 @@ print(lists[0])
 
 # list
 eg = ["obafemi", "mayowa", "ibrahim", "mede", "ife", "damola"]
-eg.append(10)
+eg.append("hehe")
+eg.join(["osas",100])
 print(eg)
 
 # tuple
