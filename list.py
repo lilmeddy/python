@@ -11,7 +11,8 @@ classNames = ["Osamede", "Obafemi", "Damola","Duro","Ibrahim"]
 # asking for names 
 firstName, secondName,thirdName,fourthName,fithName = input("Enter your name: "),input("Enter your name: "),input("Enter your name: "),input("Enter your name: "),input("Enter your name: ")
 # merging them together 
-classNames.extend([firstName, secondName, thirdName,fourthName,fithName])
+suppliedNames = [firstName, secondName, thirdName,fourthName,fithName]
+classNames.extend(suppliedNames)
 print(classNames)
 #  asking search for a name 
 searchName = input("Search for a name: ")
