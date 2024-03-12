@@ -87,6 +87,7 @@ eg.insert(1,"aghedo")
 eg.pop(eg.index("ibrahim"))
 # or
 eg.pop(0)
+# len(list) to find the length
 
 
 print(eg)
@@ -109,3 +110,6 @@ print(eg["name"])
 eg["color"]= 'pink'
 print(eg["color"])
 print(eg["age"])
+
+
+
