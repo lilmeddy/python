@@ -6,11 +6,16 @@
 # print the index of the name
 
 
-
+# the original list of my matess
 classNames = ["Osamede", "Obafemi", "Damola","Duro","Ibrahim"]
+# asking for names 
 firstName, secondName,thirdName,fourthName,fithName = input("Enter your name: "),input("Enter your name: "),input("Enter your name: "),input("Enter your name: "),input("Enter your name: ")
+# merging them together 
 classNames.extend([firstName, secondName, thirdName,fourthName,fithName])
 print(classNames)
+#  asking search for a name 
 searchName = input("Search for a name: ")
+# searching the name 
 searchClass = classNames.index(searchName)
+# printing the index 
 print(searchClass)
