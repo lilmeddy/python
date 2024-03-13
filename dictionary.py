@@ -9,3 +9,16 @@ car={
 # print(car)
 car["brand"]="tesla"
 print(car)
+
+# combining dictionaries 
+car.update({"hobbies":{"favorite":"hockey",
+                       "others":["football", "basketball"]}})
+# print(car["hobbies"]["others"][1])
+# or 
+hobbies = car["hobbies"]
+others = hobbies["others"]
+football = others[0]
+print(football)
+print(car.keys())
+print(list(car.keys())[1])
+
