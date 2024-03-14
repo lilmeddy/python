@@ -20,8 +20,7 @@ product2,quantity2 = input("Enter what you want to buy: "),int(input("Enter the 
 if product2 in list(cart.keys()) :
     print("Product already exist ")
     question= input("Do you want to change prodouct ")
-    yes = "yes"
-    if question == yes :
+    if question == "yes" :
        productRep, quantityRep = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
        if productRep in list(cart.keys()) :
            print("are you okay why are you repeating products idiot")
@@ -37,8 +36,7 @@ product3,quantity3 = input("Enter what you want to buy: "),int(input("Enter the 
 if product3 in list(cart.keys()) :
     print("Product already exist ")
     question= input("Do you want to change prodouct ")
-    yes = "yes"
-    if question == yes :
+    if question == "yes" :
        productRep, quantityRep = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
        if productRep in list(cart.keys()) :
            print("are you okay why are you repeating products idiot")
@@ -55,8 +53,7 @@ product4,quantity4 = input("Enter what you want to buy: "),int(input("Enter the 
 if product4 in list(cart.keys()) :
     print("Product already exist ")
     question= input("Do you want to change prodouct ")
-    yes = "yes"
-    if question == yes :
+    if question == "yes" :
        productRep, quantityRep = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
        if productRep in list(cart.keys()) :
            print("are you okay why are you repeating products idiot")
@@ -72,8 +69,7 @@ product5,quantity5= input("Enter what you want to buy: "),int(input("Enter the q
 if product5 in list(cart.keys()) :
     print("Product already exist ")
     question= input("Do you want to change prodouct ")
-    yes = "yes"
-    if question == yes :
+    if question == "yes" :
        productRep, quantityRep = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
        if productRep in list(cart.keys()) :
            print("are you okay why are you repeating products idiot")
@@ -102,6 +98,7 @@ To replace enter 2
 To clear enter 3
 To remove enter 4
 ''')
+
 editing = int(input("What would you like to do "))
 total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
 if editing == 1:
