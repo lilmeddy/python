@@ -61,11 +61,11 @@
 # name = "timi is a good girl"
 # print(name.split(" "))
 
-lists=[1.0, 1, "hi"]
-print(len(lists))
-print(lists[2])
-print(lists[-1])
-print(lists[0])
+# lists=[1.0, 1, "hi"]
+# print(len(lists))
+# print(lists[2])
+# print(lists[-1])
+# print(lists[0])
 
 # tuples              sets               dictionary          lists
 # immutable           mutable            mutable             mutable
@@ -90,6 +90,11 @@ eg.pop(0)
 # or 
 eg.remove("mayowa")
 print(eg)
+if "hehe"  in eg :
+    eg.remove("hehe")
+    eg.append("heh")
+else:
+    print("I'm not innnn")
 # len(list) to find the length
 # to clear a list 
 # eg =[]
