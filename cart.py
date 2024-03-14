@@ -8,9 +8,8 @@
 # if the user chooses to replace a product ask for the new item name and quantity and insert it and remove the former 
 # if the user clear then clear the dictionary
 # if the user checkout extract the key to a list and print a recipt stating the item
-
 # solution 
-
+user = input("Hello Dear customer what is your name")
 cart ={}
 
 product1,quantity1 = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
@@ -103,14 +102,15 @@ editing = int(input("What would you like to do "))
 total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
 if editing == 1:
     print(f'''
+Dear {user} thanks for shopping with us 
 Your cart is 
-Product Item
+PRODUCT ITEM
 {list(cart.keys())[0]} {list(cart.values())[0]}
 {list(cart.keys())[1]} {list(cart.values())[1]}
 {list(cart.keys())[2]} {list(cart.values())[2]}
 {list(cart.keys())[3]} {list(cart.values())[3]}
 {list(cart.keys())[4]} {list(cart.values())[4]}
-Your total qualtity is {total}
+Your total qualtity is {total}.
       ''')
 
 elif editing == 2:
