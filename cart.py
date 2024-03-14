@@ -108,6 +108,11 @@ if editing == 4 :
     cart[newEdit] = 0
 elif newEdit not in list(cart.keys()) :
     print("Product not found")
-else :
+
+if editing == 2:
+    newProduct, newItem = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
+    cart[newProduct] = newItem
+    del[editing]
+
     
    

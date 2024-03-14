@@ -123,6 +123,7 @@ print(eg["name"])
 eg["color"]= 'pink'
 print(eg["color"])
 print(eg["age"])
+del eg["age"]
 
 
 
