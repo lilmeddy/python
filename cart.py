@@ -114,5 +114,20 @@ if editing == 2:
     cart[newProduct] = newItem
     del[editing]
 
+if editing == 3:
+    cart=  {}
+total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
+if editing == 1:
+    print(f'''
+Your cart is 
+Product Item
+{list(cart.keys())[0]} {list(cart.values())[0]}
+{list(cart.keys())[1]} {list(cart.values())[1]}
+{list(cart.keys())[2]} {list(cart.values())[2]}
+{list(cart.keys())[3]} {list(cart.values())[3]}
+{list(cart.keys())[4]} {list(cart.values())[4]}
+Your total qualtity is {total}
+      ''')
+
     
    
