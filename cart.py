@@ -102,9 +102,8 @@ To replace enter 2
 To clear enter 3
 To remove enter 4
 ''')
-editing = input("What would you like to do ")
+editing = int(input("What would you like to do "))
 total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
-
 if editing == 1:
     print(f'''
 Your cart is 
@@ -117,19 +116,21 @@ Product Item
 Your total qualtity is {total}
       ''')
 
-newEdit = input("what product would you like to adjust ")
-if editing == 4 :
-    cart[newEdit] = 0
-elif newEdit not in list(cart.keys()) :
-    print("Product not found")
-
-if editing == 2:
+elif editing == 2:
     newProduct, newItem = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
     cart[newProduct] = newItem
     del[editing]
 
-if editing == 3:
-    cart=  {}
-
-    
+elif editing == 3:
+    cart = {}
    
+
+elif editing == 4 :
+    newEdit = input("what product would you like to adjust ")
+    cart[newEdit] = 0
+
+else:
+    print("invalid input")
+
+
+
