@@ -7,13 +7,13 @@ car={
     "carSeat":"5"
 }
 # print(car)
-car["brand"]="tesla"
-print(car)
+# car["brand"]="tesla"
+# print(car)
 
 # combining dictionaries 
 car.update({"hobbies":{"favorite":"hockey",
                        "others":["football", "basketball"]}})
-# print(car["hobbies"]["others"][1])
+print(car["hobbies"]["others"][1])
 # or 
 hobbies = car["hobbies"]
 others = hobbies["others"]

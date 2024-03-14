@@ -1,4 +1,4 @@
-# assignment
+# assignment1
 # create an origin list of your classmates
 # ask for the names of 5 student add each of them to a list
 # merge both list together 
@@ -28,5 +28,5 @@ else:
     print(f"The number you provided is {num}. Unlucky you {num} is an odd number")
 
 numbers =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-print(numbers[1:len(numbers):2])
+print(numbers[1::2])
  

@@ -87,7 +87,15 @@ eg.insert(1,"aghedo")
 eg.pop(eg.index("ibrahim"))
 # or
 eg.pop(0)
+# or 
+eg.remove("mayowa")
+print(eg)
 # len(list) to find the length
+# to clear a list 
+# eg =[]
+
+# to reverse a list 
+# eg.reverse()
 
 
 print(eg)
