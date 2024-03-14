@@ -103,7 +103,21 @@ To clear enter 3
 To remove enter 4
 ''')
 editing = input("What would you like to do ")
-newEdit = input("what product would you like to adjust")
+total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
+
+if editing == 1:
+    print(f'''
+Your cart is 
+Product Item
+{list(cart.keys())[0]} {list(cart.values())[0]}
+{list(cart.keys())[1]} {list(cart.values())[1]}
+{list(cart.keys())[2]} {list(cart.values())[2]}
+{list(cart.keys())[3]} {list(cart.values())[3]}
+{list(cart.keys())[4]} {list(cart.values())[4]}
+Your total qualtity is {total}
+      ''')
+
+newEdit = input("what product would you like to adjust ")
 if editing == 4 :
     cart[newEdit] = 0
 elif newEdit not in list(cart.keys()) :
@@ -116,18 +130,6 @@ if editing == 2:
 
 if editing == 3:
     cart=  {}
-total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
-if editing == 1:
-    print(f'''
-Your cart is 
-Product Item
-{list(cart.keys())[0]} {list(cart.values())[0]}
-{list(cart.keys())[1]} {list(cart.values())[1]}
-{list(cart.keys())[2]} {list(cart.values())[2]}
-{list(cart.keys())[3]} {list(cart.values())[3]}
-{list(cart.keys())[4]} {list(cart.values())[4]}
-Your total qualtity is {total}
-      ''')
 
     
    
