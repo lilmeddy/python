@@ -103,6 +103,10 @@ else:
 # eg.reverse()
 
 
+# to insert at a specific index 
+eg.insert(1,"mede")
+
+
 print(eg)
 
 # tuple

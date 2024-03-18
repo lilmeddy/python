@@ -100,9 +100,10 @@ To remove enter 4
 
 editing = int(input("What would you like to do "))
 total =list(cart.values())[0] + list(cart.values())[1] + list(cart.values())[2] + list(cart.values())[3] + list(cart.values())[4]
-if editing == 1:
-    print(f'''
-Dear {user} thanks for shopping with us 
+if editing in [1,2,3,4]:
+    if editing == 1:
+      print(f'''
+        Dear {user} thanks for shopping with us 
 Your cart is 
 PRODUCT ITEM
 {list(cart.keys())[0]} {list(cart.values())[0]}
@@ -113,21 +114,23 @@ PRODUCT ITEM
 Your total qualtity is {total}.
       ''')
 
-elif editing == 2:
-    newProduct, newItem = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
-    cart[newProduct] = newItem
-    del[editing]
+    elif editing == 2:
+         newProduct, newItem = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
+         cart[newProduct] = newItem
+         del[editing]
 
-elif editing == 3:
-    cart = {}
+    elif editing == 3:
+          cart = {}
    
 
-elif editing == 4 :
-    newEdit = input("what product would you like to adjust ")
-    cart[newEdit] = 0
+    elif editing == 4 :
+        newEdit = input("what product would you like to adjust ")
+        cart[newEdit] = 0
 
-else:
-    print("invalid input")
+    else:
+       print("invalid input")
+else: 
+    print("Invalid number pick 1-4")
 
 
 
