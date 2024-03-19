@@ -33,7 +33,6 @@
 
 
 # generate a list of 1-100 and get all the prime number 
-
 primeNum=[]
 for num in range(1,101):
     if num >1 :
@@ -44,5 +43,22 @@ for num in range(1,101):
         if prime:
            primeNum.append(num)
 print(primeNum)
-         
-                
+
+# calculator 
+num1,num2 = int(input("Enter first number ")),int(input("Enter second number "))
+sign = int(input("Enter:\n1 to add\n2 to subtract\n3 to multiply\n4 to find the modulus\n5 to divide\n6 to find exponential\n"))
+if sign == 1:
+   print(num1+num2)
+elif sign ==2:
+   print(num1-num2)
+elif sign ==3:
+   print(num1*num2)
+elif sign ==4:
+   print(num1%num2)
+elif sign ==5:
+   print(num1/num2)
+elif sign ==6:
+   print(num1**num2)
+else:
+   print("Math error")
+#    sign = int(input("Enter:\n1 to add\n2 to subtract\n3 to multiply\n4 to find the modulus\n5 to divide\n6 to find exponential\n"))
