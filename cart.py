@@ -9,7 +9,7 @@
 # if the user clear then clear the dictionary
 # if the user checkout extract the key to a list and print a recipt stating the item
 # solution 
-user = input("Hello Dear customer what is your name")
+user = input("Hello Dear customer what is your name ")
 cart ={}
 
 for prod in range(5):
