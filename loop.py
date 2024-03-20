@@ -41,8 +41,9 @@ for num in range(1,101):
             if num%i == 0:
               prime = False
         if prime:
-           primeNum.append(num)
-print(primeNum)
+           print(num,end=',')
+         #   primeNum.append(num)
+# print(primeNum)
 
 # calculator 
 num1,num2 = int(input("Enter first number ")),int(input("Enter second number "))
@@ -62,3 +63,4 @@ elif sign ==6:
 else:
    print("Math error")
 #    sign = int(input("Enter:\n1 to add\n2 to subtract\n3 to multiply\n4 to find the modulus\n5 to divide\n6 to find exponential\n"))
+                

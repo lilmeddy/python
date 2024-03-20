@@ -21,13 +21,24 @@
 
 # assignment2
 # ask a user for input and check if it is even if it is even print is even else no 
-num = int(input("Enter your yeye number jare: "))
-if num%2 == 0 :
-    print(f"The number you provided is {num}. Lucky you {num} is an even number")
-else:
-    print(f"The number you provided is {num}. Unlucky you {num} is an odd number")
+# num = int(input("Enter your yeye number jare: "))
+# if num%2 == 0 :
+#     print(f"The number you provided is {num}. Lucky you {num} is an even number")
+# else:
+#     print(f"The number you provided is {num}. Unlucky you {num} is an odd number")
 
-numbers =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-print(numbers[1::2])
+# numbers =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+# print(numbers[1::2])
+
+listt =["obafemi", "damolaaaaaaaaaaaaaaaaaa"]
+for i in listt :
+    if len(i) > 10 :
+        print(f"{i} is greater than 10 character")
+
+inp = input("Enter your password: ")
+if len(inp) < 10:
+    print("Password must be greater than 10 characters")
+
+
 
  
