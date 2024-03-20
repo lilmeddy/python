@@ -36,8 +36,9 @@ for i in listt :
         print(f"{i} is greater than 10 character")
 
 inp = input("Enter your password: ")
-if len(inp) < 10:
+while len(inp) < 10 :
     print("Password must be greater than 10 characters")
+    inp = input("Enter your password: ")
 
 
 

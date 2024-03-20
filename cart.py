@@ -14,18 +14,9 @@ cart ={}
 
 for prod in range(5):
     product,quantity = input("Enter what you want to buy: "),int(input("Enter the quantity of what you want to buy: "))
-    if product in list(cart.keys()) :
+    while product in list(cart.keys()) :
        print("Product already exist ")
-       question= input("Do you want to change prodouct yes or no ")
-       if question == "yes" :
-          productRep, quantityRep = input("Enter new product: "),int(input("Enter the quantity of what you want to buy: "))
-          if productRep in list(cart.keys()) :
-            print("are you okay why are you repeating products idiot")
-          else :
-           cart[productRep] = quantityRep 
-       else: 
-         print("Continue your shopping")
- 
+       product,quantity = input("Enter new you want to buy: "),int(input("Enter the new quantity of what you want to buy: "))
     else:
        cart[product] = quantity
    
