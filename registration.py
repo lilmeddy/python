@@ -35,9 +35,9 @@ for users in range(1):
            i.insert(2, newPassword)
            #testing
         # print(user)
-printuser
+print(user)
 
-
+# erfghjkl.,mnfdsdfghjksxcvb
 
 # print(user)
 
