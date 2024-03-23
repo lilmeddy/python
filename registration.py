@@ -33,6 +33,7 @@ for users in range(1):
              print(user) 
            newPassword = input("enter new password")
            i.insert(2, newPassword)
+           #testing
         # print(user)
 print(user)
 
